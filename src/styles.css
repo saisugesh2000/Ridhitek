@@ -645,7 +645,7 @@
     align-items: center;
     color: white;
     text-align: center;
-    background-image: url('/assets/IMAGES/double_circle.jpeg'); 
+    background-image: url('https://images.pexels.com/photos/20504257/pexels-photo-20504257/free-photo-of-double_circle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
     background-size: cover;
     /* background-attachment: fixed;  */
     background-size: 100%;
