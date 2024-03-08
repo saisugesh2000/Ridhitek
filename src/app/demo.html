@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout</title>
+  <style>
+       /*Only For Hader Style  Start */
+       @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    }
+    .containerOverviewAbout {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: red;
+     
+      
+    }
+
+    .leftOverviewAbout {
+      flex: 1;
+      padding: 20px;
+      height: 100vh;
+    }
+
+    .rightOverviewAbout {
+      flex: 1;
+      padding: 20px;
+      height: 100vh;
+    }
+
+    .leftOverviewAbout img {
+      max-width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+    .rightOverviewAbout p{
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 600;
+      padding: 20px;
+
+    }
+    .rightOverviewAbout h2{
+      font-size:30px;
+      line-height: 30px;
+      font-weight: 700;
+      padding: 20px;
+
+    }
+
+    @media only screen and (max-width: 768px) {
+      .containerOverviewAbout {
+        flex-direction: column;
+      }
+
+     .leftOverviewAbout img {
+        width: 100%;
+      }
+    }
+   
+
+  </style>
+</head>
+<body>
+  <div class="containerOverviewAbout">
+    <div class="leftOverviewAbout">
+      <img src="/src/assets/IMAGES/overview.png" alt="Left Image">
+    </div>
+    <div class="rightOverviewAbout">
+      <h2>OVERVIEW</h2>
+      <p>
+        Originally established as a specialized provider of technological services and solutions, Ridhitek was limited to the card, payment, and lending industries. With our next-generation digital services and consultancy, we help clients in 15 countries navigate their digital transition.
+      </p>
+      <p>
+        We professionally guide our clients through their digital transformation projects thanks to our more than ten years of experience managing systems and working for financial institutions, third-party payment processors, and fintech companies. We are able to create exceptional project delivery experiences and performance levels never before seen thanks to our deep domain expertise, technological know-how, and application level competence in the three areas. Positively outrageous client delight is the result.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
