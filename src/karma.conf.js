@@ -9,7 +9,8 @@ config.set({
    require('karma-coverage-istanbul-reporter'),
    require('@angular/cli/plugins/karma'),
    require('karma-jasmine-diff-reporter'),
-   require('karma-structured-json-reporter')
+   require('karma-structured-json-reporter'),
+   require('karma-sonarqube-reporter'), // This one
  ],
  browsers: ['Chrome'],
 …
