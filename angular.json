@@ -104,7 +104,9 @@
             "scripts": [
               "https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"
               
-            ]
+            ],
+            "codeCoverage": true, 
+            "karmaConfig": "src/karma.conf.js"
           }
         },
         "deploy": {
