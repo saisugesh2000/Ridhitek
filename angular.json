@@ -26,8 +26,6 @@
             "outputPath": "dist/ridhitek-web-application",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "codeCoverage": true,
-            "karmaConfig": "src/karma.conf.js",
             "polyfills": [
               "zone.js"
             ],
